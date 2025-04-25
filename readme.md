@@ -36,6 +36,8 @@ This project applies unsupervised machine learning techniques to analyze and clu
 ### Part 2: Data Scaling
 - Normalize the dataset using StandardScaler from scikit-learn
 - Create a scaled DataFrame with "coin_id" as the index
+  <img width="1013" alt="Screenshot 2025-04-25 at 12 01 24 PM" src="https://github.com/user-attachments/assets/95da929c-1e67-4315-a5e4-48649fdb5887" />
+
 
 ### Part 3: Clustering Analysis (Scaled Data)
 - Use the elbow method to determine the optimal number of clusters (k)
@@ -59,10 +61,16 @@ This project applies unsupervised machine learning techniques to analyze and clu
   - Hover: coin_id
 
 ### Part 6: Comparative Analysis
+
 - Use composite plots to compare:
-  - Elbow curves for scaled data vs PCA-reduced data
-  - Clustering visualizations for scaled data vs PCA-reduced data
+- Elbow curves for scaled data vs PCA-reduced data
+- Clustering visualizations for scaled data vs PCA-reduced data
 - Document the impact of dimensionality reduction on clustering performance
+
+<img width="864" alt="Screenshot 2025-04-25 at 12 02 02 PM" src="https://github.com/user-attachments/assets/15680c2b-840a-4407-89f5-630e46901148" />
+
+<img width="1400" alt="Screenshot 2025-04-25 at 12 02 18 PM" src="https://github.com/user-attachments/assets/c1ec5ec6-912c-49a2-a79d-d95f11dc528d" />
+
 
 ## Results
 - **Optimal Clusters**: The elbow method identified the best value of k for both scaled and PCA-reduced data
